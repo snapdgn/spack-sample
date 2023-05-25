@@ -1,3 +1,3 @@
 #include <stdio.h>
 
-int main() { printf("Another version!"); }
+int main() { printf("This is the dev branch!"); }
