@@ -1,5 +1,6 @@
+AUTOMAKE_OPTIONS = foreign
 bin_PROGRAMS = sample_spack
-sample_spack_SOURCES = src/helloworld.c
+sample_spack_SOURCES = helloworld.c
 
 clean-local:
 	@rm config.status configure config.log
